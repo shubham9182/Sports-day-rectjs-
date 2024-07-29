@@ -1,0 +1,28 @@
+/* src/SelectedEventCard.css */
+.selected-event-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.selected-event-card h3 {
+  color: #007bff;
+  margin: 0 0 10px 0;
+}
+
+.selected-event-card button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ff4d4f;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+.selected-event-card button:hover {
+  background-color: #d32f2f;
+}
